@@ -1,11 +1,15 @@
 import Context from "./data/ObjectContext";
-import {Home} from "./pages/Home/Home"
+import {NetherCalculator} from "./Sections/NetherCalculator/NetherCalculator"
+import {DesignTools} from "./Sections/DesignTools/DesignTools"
 
 function App() {
+
+
   return (
-    <Context>
-      <Home />
-    </Context>
+    <>
+      <NetherCalculator />
+      <DesignTools />
+    </>
   );
 }
 
