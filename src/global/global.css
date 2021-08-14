@@ -1,0 +1,80 @@
+/* Default Values */
+body {
+  font: normal 400 16px Roboto, sans-serif;
+  color: var(--color-text);
+}
+
+/* Variables */
+:root {
+  /* Generic Styles */
+  /* Colors */
+  --color-primary-light: #acc2f0;
+  --color-primary: #5e94e6;
+  --color-primary-dark: #2c4e80;
+
+  --color-red: #df3d4d;
+  --color-green: #4acf69;
+  --color-blue: #38a5ee;
+  --color-yellow: #f8c630;
+  
+  --color-white: #fff;
+  --color-light: #e5e5e5;
+  --color-light-grey: #aaa;
+  --color-grey: #777;
+  --color-dark-grey: #424242;
+  --color-dark: #333;
+  --color-black: #000;
+
+  /* Fonts */
+  --fontSize-small: 12px;
+  --fontSize-normal: 16px;
+  --fontSize-medium: 24px;
+  --fontSize-large: 32px;
+
+  --fontWeight-normal: 400;
+  --fontWeight-semibold: 500;
+  --fontWeight-bold: 600;
+  --fontWeight-extrabold: 800;
+
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-normal: 16px;
+  --spacing-large: 32px;
+  --spacing-extra: 48px;
+
+  /* Icons */
+  --size-iconContainer-normal: 16px;
+  --size-iconContainer-medium: 32px;
+  --size-iconContainer-large: 40px;
+
+  --size-icon-normal: 10px;
+  --size-icon-medium: 16px;
+  --size-icon-large: 20px;
+
+  /* Others */
+  --height-object-normal: 32px;
+
+  /* --------------------------------------------------------- */
+  /* Specific Styles */
+  --color-text: var(--color-dark);
+  --color-text-light: var(--color-light-grey);
+
+  --color-linebreak: var(--color-light);
+  --border-normal: 1px solid var(--color-light);
+  --border-dark: 1px solid var(--color-light-grey);
+
+  --color-background: var(--color-white);
+  --color-background-canvas: var(--color-light);
+
+  --color-icon: var(--color-light-grey);
+  --color-icon-dark: var(--color-dark);
+
+  --color-selected-object: var(--color-primary);
+
+  --selected-object-outline: 1px solid var(--color-selected-object);
+
+}
+
+/* Classes */
+
+
